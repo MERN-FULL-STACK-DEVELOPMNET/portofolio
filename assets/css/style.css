@@ -1,0 +1,60 @@
+.portfolio-upper-bg-container {
+    background-color: #1c1c1b;
+    background-size: cover;
+    height: 30vh;
+    border-bottom-right-radius: 2vh;
+    border-bottom-left-radius: 2vh;
+}
+.portfolio-bottom-bg-container {
+    background-color: #ffce08;
+    background-size: cover;
+    height: 70vh;
+    padding: 1vh;
+}
+.image-card {
+    background-color: white;
+    height: 25vh;
+    width: 25vh;
+    margin: 2vh;
+    border-radius: 5vh;
+
+}
+.upper-bg-flex-box {
+    display: flex;
+    flex-flow: row;
+}
+.upper-bg-font {
+    font-family: Sans-serif;
+    color: #fad08c;
+}
+.name-introduction-card {
+    margin: 2vh;
+}
+.upper-bg-button {
+    height: 5vh;
+    width: 15vh;
+    border-radius: 1vh;
+    margin: 2vh;
+
+}
+.social-media-button-list{
+    list-style-type: none;
+}
+.bottom-card {
+    height: 67vh;
+    width: 22vh; 
+    border-top-right-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    background-color: #ffffff;
+    margin: 0vh;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+.image {
+    height: 15vh;
+    width: 20vh;
+    margin-top: 1vh;
+    margin-left: 1vh;
+    border-radius: 1vh;
+}
