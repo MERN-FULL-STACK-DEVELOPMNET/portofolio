@@ -1,9 +1,12 @@
 .portfolio-upper-bg-container {
-    background-color: #1c1c1b;
+    background-color: black;
     background-size: cover;
     height: 30vh;
     border-bottom-right-radius: 2vh;
     border-bottom-left-radius: 2vh;
+}
+*{
+    font-family: Sans-serif;
 }
 .portfolio-bottom-bg-container {
     background-color: #ffce08;
@@ -11,13 +14,19 @@
     height: 70vh;
     padding: 1vh;
 }
-.image-card {
+.profile-image-card {
     background-color: white;
     height: 25vh;
-    width: 25vh;
+    width: 20vh;
     margin: 2vh;
-    border-radius: 5vh;
+    border-radius: 3vh;
 
+}
+.profile-image {
+    height: 25vh;
+    width: 20vh;
+    border-radius: 3vh;
+    
 }
 .upper-bg-flex-box {
     display: flex;
@@ -25,7 +34,7 @@
 }
 .upper-bg-font {
     font-family: Sans-serif;
-    color: #fad08c;
+    color: #fcf403;
 }
 .name-introduction-card {
     margin: 2vh;
@@ -41,11 +50,11 @@
     list-style-type: none;
 }
 .bottom-card {
-    height: 67vh;
+    height: 68vh;
     width: 22vh; 
     border-top-right-radius: 2vh;
     border-bottom-right-radius: 2vh;
-    background-color: #ffffff;
+    background-color: #575656;
     margin: 0vh;
     display: flex;
     flex-flow: row;
@@ -57,4 +66,170 @@
     margin-top: 1vh;
     margin-left: 1vh;
     border-radius: 1vh;
+}
+.highlight-projects-card {
+    background-color: #575656;
+    height: 66vh;
+    width: 50vh;
+    border-radius: 2vh;
+    margin: 2vh;
+    padding-left: 1vh;
+
+}
+.twitter-button {
+    background-color: #0cbbf5;
+    border-width: 
+}
+.linkdin-button {
+    background-color: #0A66C2;
+}
+.github-button {
+    background-color: #fafafa;
+}
+.hire-button {
+    background-color: #90EE90;
+}
+.profile-button {
+    background-color: #fc5203;
+}
+.layout-for-bottom {
+    display: flex;
+    flex-flow: row;
+}
+.hightlight-project-image {
+    height: 15vh;
+    width: 20vh;
+    border-radius: 2vh;
+}
+.highlight-project-image-card {
+    position: relative;
+    right: 4vh;
+    height: 15vh;
+    width: 20vh;
+    background-color: #fcf403;
+    padding: 2vh;
+    margin-bottom: 1.5vh;
+    border-top-left-radius: 2vh;
+    border-bottom-left-radius: 2vh;
+}
+.highlight-project-main-heading {
+    font-size: 2vh;
+    position: relative;
+    top: -1vh;
+    left: 1vh;
+    color: #fcf403; 
+}
+.hightlight-project-list {
+    position: relative;
+    bottom: 2vh;
+    left: 1vh;
+}
+.highlight-project-text-card {
+    position: relative;
+    right: 4vh;
+    height: 15vh;
+    width: 20vh;
+    background-color: black;
+    padding: 2vh;
+    margin-bottom: 1.5vh;
+    border-top-right-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+}
+.highlight-project-heading {
+    color: #ffce08;
+    position: relative;
+    bottom: 4vh;
+    right: 1vh;
+    font-size: 2.3vh;
+}
+.highlight-project-description {
+    position: relative;
+    bottom: 7vh;
+    left: 1vh;
+    font-size: 1.85vh;
+    color: #fad08c;
+}
+.contact-card {
+    background-color: #575656;
+    height: 64vh;
+    width: 35vh;
+    border-radius: 2vh;
+    padding: 2vh;
+    margin: 1vh;
+}
+.contact-white-card {
+    color: white;
+    background-color: black;
+    border-radius: 2vh;
+    height: 12vh;
+    width: 30vh;
+    position: relative;
+    right: 4vh;
+    padding-left: 1.5vh;
+}
+.contact-heading {
+    color: #fcf403;
+    position: relative;
+    top: 1vh;
+}
+.contact-mainheading {
+    color: #fcf403;
+    position: relative;
+    bottom: 3vh;
+}
+.contact-description {
+    position: relative;
+    left: 2vh;
+}
+.contact-list {
+    position: relative;
+    bottom: 4vh;
+}
+.education-card {
+    height: 33vh;
+    width: 53vh;
+    background-color:#575656;
+    border-top-left-radius: 2vh;
+    border-bottom-left-radius: 2vh;
+    margin: 1vh;
+}
+.education-white-card {
+    color: white;
+    background-color: black;
+    border-top-left-radius: 2vh;
+    border-bottom-left-radius: 2vh;
+    height: 12vh;
+    width: 45vh;
+    position: relative;
+}
+.education-heading {
+    color: #fcf403;
+    position: relative;
+    top: 2vh;
+    margin: 1vh;
+}
+.education-list {
+    position: relative;
+    top: 1.5vh;
+    right: 2vh;
+}
+.education-description {
+    position: relative;
+    top: 2vh;
+    left: 4vh;
+}
+.aboutme-heading {
+    text-decoration: underline;
+    position: relative;
+    left: 4vh;
+}
+.aboutme-description {
+    position: relative;
+    left: 8vh;
+}
+.aboutme-card {
+    background-color: black;
+    height: 28vh;
+    width: 100vh;
+
 }
